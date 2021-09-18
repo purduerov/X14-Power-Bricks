@@ -1,4 +1,4 @@
-# Readme for X13-Power-Bricks
+# Readme for X14-Power-Bricks
 
 Whenever you make a new part, download the datasheet and save it here _**and**_ with the part in the parts library
 
