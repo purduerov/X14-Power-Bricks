@@ -1592,13 +1592,6 @@ Where Delta is the % up for trim (10% = 10) </text>
 <busses>
 </busses>
 <nets>
-<net name="48V_GND" class="0">
-<segment>
-<wire x1="60.96" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
-<label x="55.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="VIN(+)"/>
-</segment>
-</net>
 <net name="48_GND" class="0">
 <segment>
 <wire x1="66.04" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
@@ -1809,6 +1802,11 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$1" gate="G$1" pin="48V"/>
 <wire x1="177.8" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <label x="170.18" y="116.84" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VIN(+)"/>
+<wire x1="60.96" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
+<label x="55.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12VGND" class="0">
