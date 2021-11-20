@@ -1334,95 +1334,69 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </library>
 <library name="CONN, Distribution-Bricks">
 <packages>
-<package name="SAMTEC_PETC-02-40-01-X-VT_BTOD">
-<text x="-21.03" y="-1.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="-21.03" y="-15.39" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-20.955" y1="-2.61" x2="48.895" y2="-2.61" width="0.1" layer="51"/>
-<wire x1="48.895" y1="-2.61" x2="48.895" y2="-14.61" width="0.1" layer="51"/>
-<wire x1="-20.955" y1="-14.61" x2="-20.955" y2="-2.61" width="0.1" layer="51"/>
-<wire x1="48.895" y1="-14.61" x2="-20.955" y2="-14.61" width="0.1" layer="51"/>
-<wire x1="-20.955" y1="-2.61" x2="48.895" y2="-2.61" width="0.2" layer="21"/>
-<wire x1="48.895" y1="-2.61" x2="48.895" y2="-14.61" width="0.2" layer="21"/>
-<wire x1="48.895" y1="-14.61" x2="-20.955" y2="-14.61" width="0.2" layer="21"/>
-<wire x1="-20.955" y1="-14.61" x2="-20.955" y2="-2.61" width="0.2" layer="21"/>
-<wire x1="-21.205" y1="-2.36" x2="49.145" y2="-2.36" width="0.05" layer="39"/>
-<wire x1="49.145" y1="-2.36" x2="49.145" y2="-14.86" width="0.05" layer="39"/>
-<wire x1="49.145" y1="-14.86" x2="-21.205" y2="-14.86" width="0.05" layer="39"/>
-<wire x1="-21.205" y1="-14.86" x2="-21.205" y2="-2.36" width="0.05" layer="39"/>
-<circle x="25.4" y="-15.19" radius="0.1" width="0.2" layer="51"/>
-<circle x="25.4" y="-15.19" radius="0.1" width="0.2" layer="21"/>
-<pad name="P01_8" x="36.195" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P01_7" x="36.195" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P01_6" x="36.195" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P01_5" x="36.195" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P01_4" x="38.735" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P01_3" x="38.735" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P01_2" x="38.735" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P01_1" x="38.735" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P02_4" x="32.385" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P02_3" x="32.385" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P02_2" x="32.385" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P02_1" x="32.385" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P02_8" x="29.845" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P02_7" x="29.845" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P02_6" x="29.845" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P02_5" x="29.845" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="01" x="25.4" y="-12.7" drill="1.02" diameter="1.52" shape="square"/>
-<pad name="02" x="25.4" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="03" x="25.4" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="04" x="25.4" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="05" x="22.86" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="06" x="22.86" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="07" x="22.86" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="08" x="22.86" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="09" x="20.32" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="10" x="20.32" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="11" x="20.32" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="12" x="20.32" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="P03_4" x="-1.905" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P03_3" x="-1.905" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P03_2" x="-1.905" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P03_1" x="-1.905" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P03_8" x="-4.445" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P03_7" x="-4.445" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P03_6" x="-4.445" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P03_5" x="-4.445" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P04_4" x="-8.255" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P04_3" x="-8.255" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P04_2" x="-8.255" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P04_1" x="-8.255" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P04_8" x="-10.795" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P04_7" x="-10.795" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P04_6" x="-10.795" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P04_5" x="-10.795" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="13" x="17.78" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="14" x="17.78" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="15" x="17.78" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="16" x="17.78" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="17" x="15.24" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="18" x="15.24" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="19" x="15.24" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="20" x="15.24" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="21" x="12.7" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="22" x="12.7" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="23" x="12.7" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="24" x="12.7" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="25" x="10.16" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="26" x="10.16" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="27" x="10.16" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="28" x="10.16" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="29" x="7.62" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="30" x="7.62" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="31" x="7.62" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="32" x="7.62" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="33" x="5.08" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="34" x="5.08" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="35" x="5.08" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="36" x="5.08" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="37" x="2.54" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="38" x="2.54" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="39" x="2.54" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="40" x="2.54" y="-5.08" drill="1.02" diameter="1.52"/>
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC">
+<text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
+<text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="-26.285" y1="8.75" x2="26.285" y2="8.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="8.75" x2="26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="-3.75" x2="-26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="-26.285" y1="-3.75" x2="-26.285" y2="8.75" width="0.05" layer="39"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="21"/>
+<pad name="01" x="2.54" y="-1.59" drill="1.02" shape="square"/>
+<pad name="02" x="2.54" y="0.95" drill="1.02"/>
+<pad name="03" x="2.54" y="3.49" drill="1.02"/>
+<pad name="04" x="2.54" y="6.03" drill="1.02"/>
+<pad name="05" x="0" y="-1.59" drill="1.02"/>
+<pad name="06" x="0" y="0.95" drill="1.02"/>
+<pad name="07" x="0" y="3.49" drill="1.02"/>
+<pad name="08" x="0" y="6.03" drill="1.02"/>
+<pad name="09" x="-2.54" y="-1.59" drill="1.02"/>
+<pad name="10" x="-2.54" y="0.95" drill="1.02"/>
+<pad name="11" x="-2.54" y="3.49" drill="1.02"/>
+<pad name="12" x="-2.54" y="6.03" drill="1.02"/>
+<hole x="-22.225" y="0" drill="2.49"/>
+<hole x="22.225" y="0" drill="2.49"/>
+<pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
+<pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
+<pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
+<pad name="P02_8" x="6.985" y="6.03" drill="1.32"/>
+<pad name="P02_1" x="9.525" y="-1.59" drill="1.32"/>
+<pad name="P02_2" x="9.525" y="0.95" drill="1.32"/>
+<pad name="P02_3" x="9.525" y="3.49" drill="1.32"/>
+<pad name="P02_4" x="9.525" y="6.03" drill="1.32"/>
+<pad name="P01_5" x="13.335" y="-1.59" drill="1.32"/>
+<pad name="P01_6" x="13.335" y="0.95" drill="1.32"/>
+<pad name="P01_7" x="13.335" y="3.49" drill="1.32"/>
+<pad name="P01_8" x="13.335" y="6.03" drill="1.32"/>
+<pad name="P01_1" x="15.875" y="-1.59" drill="1.32"/>
+<pad name="P01_2" x="15.875" y="0.95" drill="1.32"/>
+<pad name="P01_3" x="15.875" y="3.49" drill="1.32"/>
+<pad name="P01_4" x="15.875" y="6.03" drill="1.32"/>
+<pad name="P03_1" x="-6.985" y="-1.59" drill="1.32"/>
+<pad name="P03_2" x="-6.985" y="0.95" drill="1.32"/>
+<pad name="P03_3" x="-6.985" y="3.49" drill="1.32"/>
+<pad name="P03_4" x="-6.985" y="6.03" drill="1.32"/>
+<pad name="P03_5" x="-9.525" y="-1.59" drill="1.32"/>
+<pad name="P03_6" x="-9.525" y="0.95" drill="1.32"/>
+<pad name="P03_7" x="-9.525" y="3.49" drill="1.32"/>
+<pad name="P03_8" x="-9.525" y="6.03" drill="1.32"/>
+<pad name="P04_1" x="-13.335" y="-1.59" drill="1.32"/>
+<pad name="P04_2" x="-13.335" y="0.95" drill="1.32"/>
+<pad name="P04_3" x="-13.335" y="3.49" drill="1.32"/>
+<pad name="P04_4" x="-13.335" y="6.03" drill="1.32"/>
+<pad name="P04_5" x="-15.875" y="-1.59" drill="1.32"/>
+<pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
+<pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
+<pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
 </package>
 </packages>
 <symbols>
@@ -1444,22 +1418,22 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PETC-02-40-01-X-VT(BTOD)">
+<deviceset name="CONN_BRICKS">
 <gates>
 <gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_PETC-02-40-01-X-VT_BTOD">
+<device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC">
 <connects>
-<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8 P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
-<connect gate="G$1" pin="12VGND" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="48V" pad="29 30 31 32 33 34 35 36 37 38 39 40"/>
-<connect gate="G$1" pin="48VGND" pad="01 02 03 04 05 06 07 08 09 10 11 12"/>
-<connect gate="G$1" pin="ALERT" pad="17"/>
-<connect gate="G$1" pin="C2" pad="18"/>
-<connect gate="G$1" pin="CLK" pad="19"/>
-<connect gate="G$1" pin="DATA" pad="20"/>
-<connect gate="G$1" pin="ON/OFF" pad="21"/>
+<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
+<connect gate="G$1" pin="12VGND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="48V" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
+<connect gate="G$1" pin="48VGND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="ALERT" pad="01"/>
+<connect gate="G$1" pin="C2" pad="02"/>
+<connect gate="G$1" pin="CLK" pad="03"/>
+<connect gate="G$1" pin="DATA" pad="04"/>
+<connect gate="G$1" pin="ON/OFF" pad="05"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1495,7 +1469,7 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="510k"/>
-<part name="U$1" library="CONN, Distribution-Bricks" deviceset="PETC-02-40-01-X-VT(BTOD)" device=""/>
+<part name="U$1" library="CONN, Distribution-Bricks" deviceset="CONN_BRICKS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1615,6 +1589,11 @@ Where Delta is the % up for trim (10% = 10) </text>
 <wire x1="60.96" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
 <label x="55.88" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="VIN(-)"/>
+</segment>
+<segment>
+<wire x1="177.8" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="170.18" y="111.76" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="48VGND"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -1799,9 +1778,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <wire x1="66.04" y1="48.26" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="48V"/>
 <wire x1="177.8" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <label x="170.18" y="116.84" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="48V"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VIN(+)"/>
@@ -1814,13 +1793,6 @@ Where Delta is the % up for trim (10% = 10) </text>
 <wire x1="177.8" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <label x="172.72" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="12VGND"/>
-</segment>
-</net>
-<net name="48VGND" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="48VGND"/>
-<wire x1="177.8" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<label x="170.18" y="111.76" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 </nets>
