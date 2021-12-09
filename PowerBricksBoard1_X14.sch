@@ -1630,9 +1630,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="C2"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
-<label x="218.44" y="114.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C2"/>
+<wire x1="213.36" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
+<label x="220.98" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="DATA"/>
 </segment>
 </net>
 <net name="12_GND" class="0">
@@ -1664,9 +1664,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="SMBALERT"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
-<label x="218.44" y="124.46" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="ALERT"/>
+<wire x1="213.36" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
+<label x="218.44" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C2"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -1676,9 +1676,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="PMBDATA"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
-<label x="220.98" y="129.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="DATA"/>
+<wire x1="213.36" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="ALERT"/>
 </segment>
 </net>
 <net name="CLK" class="0">
