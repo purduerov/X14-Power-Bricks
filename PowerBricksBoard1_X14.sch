@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1334,7 +1334,7 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </library>
 <library name="CONN, Distribution-Bricks">
 <packages>
-<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC">
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(B-D)">
 <text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
@@ -1397,46 +1397,57 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
 <pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
 <pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
+<wire x1="-26.67" y1="-39.37" x2="26.67" y2="-39.37" width="0.1524" layer="21"/>
+<wire x1="-26.67" y1="-39.37" x2="-26.67" y2="36.83" width="0.1524" layer="21"/>
+<wire x1="-26.67" y1="36.83" x2="26.67" y2="36.83" width="0.1524" layer="21"/>
+<wire x1="26.67" y1="36.83" x2="26.67" y2="-39.37" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="PETC_NEW">
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
-<pin name="12V" x="-17.78" y="10.16" length="middle"/>
-<pin name="12VGND" x="-17.78" y="5.08" length="middle"/>
-<pin name="48V" x="-17.78" y="-2.54" length="middle"/>
-<pin name="48VGND" x="-17.78" y="-7.62" length="middle"/>
-<pin name="ALERT" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="CLK" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="C2" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="ON/OFF" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="DATA" x="17.78" y="10.16" length="middle" rot="R180"/>
-<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="PESC-02-12-02-01-X-VT-LC">
+<wire x1="-12.7" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DATA" x="20.32" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="12V" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="ALERT" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="12V_GND" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="CLK" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="C2" x="20.32" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="ON/OFF" x="20.32" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="48V" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
+<pin name="48V_GND" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_BRICKS">
+<deviceset name="PESC-02-12-02-01-X-VT-LC(BRICKS-DISTRIBUTION)" prefix="J">
+<description>16 (12 + 4 Power) Position Receptacle Connector Through Hole Gold  </description>
 <gates>
-<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
+<gate name="G$1" symbol="PESC-02-12-02-01-X-VT-LC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC">
+<device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(B-D)">
 <connects>
 <connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
-<connect gate="G$1" pin="12VGND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="12V_GND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
 <connect gate="G$1" pin="48V" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
-<connect gate="G$1" pin="48VGND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="ALERT" pad="01"/>
-<connect gate="G$1" pin="C2" pad="02"/>
+<connect gate="G$1" pin="48V_GND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="ALERT" pad="02"/>
+<connect gate="G$1" pin="C2" pad="04"/>
 <connect gate="G$1" pin="CLK" pad="03"/>
-<connect gate="G$1" pin="DATA" pad="04"/>
+<connect gate="G$1" pin="DATA" pad="01"/>
 <connect gate="G$1" pin="ON/OFF" pad="05"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm"/>
+<attribute name="PARTREV" value="B"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1469,7 +1480,7 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="510k"/>
-<part name="U$1" library="CONN, Distribution-Bricks" deviceset="CONN_BRICKS" device=""/>
+<part name="J1" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(BRICKS-DISTRIBUTION)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1559,8 +1570,8 @@ Where Delta is the % up for trim (10% = 10) </text>
 <attribute name="NAME" x="109.22" y="118.364" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="109.22" y="115.316" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$1" gate="G$1" x="195.58" y="119.38" smashed="yes">
-<attribute name="NAME" x="182.88" y="132.08" size="1.778" layer="95"/>
+<instance part="J1" gate="G$1" x="200.66" y="124.46" smashed="yes">
+<attribute name="VALUE" x="187.96" y="106.68" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1591,9 +1602,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="VIN(-)"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<label x="170.18" y="111.76" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="48VGND"/>
+<pinref part="J1" gate="G$1" pin="48V_GND"/>
+<wire x1="182.88" y1="114.3" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
+<label x="175.26" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -1618,9 +1629,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <junction x="104.14" y="127"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-<label x="172.72" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="12V"/>
+<pinref part="J1" gate="G$1" pin="12V"/>
+<wire x1="182.88" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="175.26" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="C2" class="0">
@@ -1630,9 +1641,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="C2"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
-<label x="218.44" y="114.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="C2"/>
+<pinref part="J1" gate="G$1" pin="C2"/>
+<wire x1="220.98" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
+<label x="228.6" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12_GND" class="0">
@@ -1652,9 +1663,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="SENSE(-)"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
-<label x="172.72" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="12VGND"/>
+<pinref part="J1" gate="G$1" pin="12V_GND"/>
+<wire x1="182.88" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<label x="175.26" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALERT" class="0">
@@ -1664,9 +1675,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="SMBALERT"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
-<label x="218.44" y="124.46" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="ALERT"/>
+<pinref part="J1" gate="G$1" pin="ALERT"/>
+<wire x1="220.98" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
+<label x="228.6" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -1676,9 +1687,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="PMBDATA"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
-<label x="220.98" y="129.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="DATA"/>
+<pinref part="J1" gate="G$1" pin="DATA"/>
+<wire x1="220.98" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
+<label x="228.6" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -1688,9 +1699,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="PMBCLK"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
-<label x="218.44" y="119.38" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="CLK"/>
+<pinref part="J1" gate="G$1" pin="CLK"/>
+<wire x1="220.98" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
+<label x="228.6" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1758,9 +1769,9 @@ Where Delta is the % up for trim (10% = 10) </text>
 <pinref part="U$2" gate="G$1" pin="ON/OFF"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
-<label x="218.44" y="109.22" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="ON/OFF"/>
+<pinref part="J1" gate="G$1" pin="ON/OFF"/>
+<wire x1="220.98" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<label x="228.6" y="114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="48V" class="0">
@@ -1783,14 +1794,14 @@ Where Delta is the % up for trim (10% = 10) </text>
 <wire x1="66.04" y1="48.26" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="170.18" y="116.84" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="48V"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="VIN(+)"/>
 <wire x1="60.96" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
 <label x="55.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="48V"/>
+<wire x1="182.88" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<label x="175.26" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
