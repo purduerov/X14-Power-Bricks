@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1363,8 +1363,8 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <pad name="10" x="-2.54" y="0.95" drill="1.02"/>
 <pad name="11" x="-2.54" y="3.49" drill="1.02"/>
 <pad name="12" x="-2.54" y="6.03" drill="1.02"/>
-<hole x="-22.225" y="0" drill="2.49"/>
-<hole x="22.225" y="0" drill="2.49"/>
+<hole x="-22.225" y="5.08" drill="2.49"/>
+<hole x="22.225" y="5.08" drill="2.49"/>
 <pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
 <pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
 <pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
