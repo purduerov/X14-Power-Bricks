@@ -864,7 +864,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="D1" pad="C"/>
 <contactref element="U$2" pad="6"/>
 <contactref element="U$2" pad="5"/>
-<polygon width="1.016" layer="16">
+<polygon width="1.016" layer="16" isolate="0.762">
 <vertex x="-1.27" y="54.61"/>
 <vertex x="31.75" y="54.61"/>
 <vertex x="43.18" y="43.18"/>
@@ -894,7 +894,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="J1" pad="P02_8"/>
 <contactref element="J1" pad="P02_5"/>
 <contactref element="J1" pad="P02_7"/>
-<polygon width="0.762" layer="1">
+<polygon width="0.762" layer="1" isolate="0.762">
 <vertex x="-0.508" y="-1.27"/>
 <vertex x="-0.508" y="23.876"/>
 <vertex x="27.686" y="23.876"/>
@@ -1009,7 +1009,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="41.91" y="13.97"/>
 </polygon>
 <contactref element="U$2" pad="1"/>
-<polygon width="1.016" layer="1" rank="4">
+<polygon width="1.016" layer="1" isolate="0.762" rank="4">
 <vertex x="40.64" y="60.96"/>
 <vertex x="33.02" y="53.34"/>
 <vertex x="33.02" y="-6.35"/>
